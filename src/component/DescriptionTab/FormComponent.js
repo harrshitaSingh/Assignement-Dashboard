@@ -9,9 +9,7 @@ import Grid from "@mui/material/Grid";
 const FormComponent = (props) => {
   const [switchValue, setSwitchValue] = useState(false);
   const [selectedValue, setSelectedValue] = useState("");
-  const handleSelectChange = (event) => {
-    setSelectedValue(event.target.value);
-  };
+
 
   const handleSwitchChange = () => {
     setSwitchValue((prevValue) => !prevValue);

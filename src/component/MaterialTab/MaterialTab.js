@@ -22,13 +22,7 @@ const MaterialTab = (props) => {
     setTabValue((prevTabValue) => (prevTabValue === 0 ? 1 : prevTabValue));
   };
 
-  const handleCloseForm = (index) => {
-    setOpenForms((prevForms) => {
-      const updatedForms = [...prevForms];
-      updatedForms[index] = false;
-      return updatedForms;
-    });
-  };
+
 
   return (
     <div className="material-tab-container">

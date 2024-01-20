@@ -96,8 +96,6 @@ const CombinedTab = () => {
         console.log(masterData, " data ");
       };
     }
-    console.log(value, " value is changing ");
-    console.log(value, " index ");
   };
 
   const submitHeading = (value) => {
